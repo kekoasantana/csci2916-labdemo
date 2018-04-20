@@ -10,9 +10,13 @@ import java.util.Scanner;
 * ***********************/
 public class Hello {
  public static void main(String[] args) {
-System.out.println("Hello");
 
+     System.out.println(greeting("hello"));
 
 
  } // end of main()
+ 
+ public static String greeting(String msg) {
+     return msg;
+ }
 } // end of Hello class
